@@ -12,7 +12,7 @@ class CP2Test(object):
 
         '''print actual half life'''
         decayconstant = float(input( "Decay constant, λ = " ))
-        print("Actual half life = " + str((math.log(2))/decayconstant) + "minutes")
+        print("Actual half life = " + str((math.log(2))/decayconstant) + "minutes") 
 
         '''print the grid'''
         print("Initial array of undecayed nuclei: ")
